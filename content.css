@@ -1,0 +1,61 @@
+.header {
+  background-image: url('logo.jpg');
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  width: 200px; 
+  height: 100px;
+}
+
+body {
+ font-family: Arial, Calibri;
+ margin: 0;
+ padding: 0;
+}
+.container {
+ max-width: 700px;
+ margin: 0 auto;
+}
+header {
+ background: #f0f0f0;
+ padding: 15px;
+}
+nav {
+  width: 25%;
+  text-color: black;
+  background-color: black;
+  padding: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+section {
+ width: 70%;
+ display: inline-block;
+ vertical-align: top;
+}
+aside {
+ width: 35%;
+ display: inline-block;
+ vertical-align: top;
+}
+footer {
+ background: #333;
+ color: #fff;
+ text-align: center;
+ padding: 15px;
+}
